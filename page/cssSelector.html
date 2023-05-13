@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/grid.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/cssSelector.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+</head>
+<body>
+    <style>
+       
+    </style>
+    <div class="tool grid wide">
+        <div class="tool_header l-12 m-12 c-12 pri-bg radius row  col">
+            <h1 class="tool_header-title text-center lig-text   text-center">
+                Cutchientool
+            </h1>
+        </div>
+        <div class="tool_body l-12 m-12 c-12 flex row">
+            <div class="tool_body-output l-8 m-12 c-12 radius">
+                <div class="btn">
+                    <i class="fas fa-align-center align-center" name="Align center"></i>
+                    <i class="fas fa-redo-alt reset-code" name="Reset"></i>
+                    <i class="fas fa-play run-code" name="Run"></i>
+                    <i class="fas fa-trash-alt del-code" name="Delete"></i>
+                </div>
+                <div class=" board lig-bg radius  l-12 m-12 c-12 ">
+                
+                </div>
+            </div>
+             <div class=" col tool_body-input  l-4 m-12 c-12">
+                <div class="tool_body-input-html l-12 m-6 c-12 opa-bg radius col">
+                    <h3 class="text-shadow lig-text l-o-1 ">
+                        HTML
+                        <i class="fab fa-octopus-deploy html-show" name="Get HTML from board"></i>
+                    </h3>
+                    <textarea class="html-board" name="" id="" cols="" rows=""></textarea>
+                </div>
+                <div class="tool_body-input-css l-12 m-6 c-12 opa-bg radius col">
+                    <h3 class="text-shadow lig-text l-o-1">
+                        CSS
+                        <i class="fab fa-octopus-deploy  css-show" name="Get CSS from board"></i>
+                    </h3>
+                    <textarea class="css-board" name="" id="" cols="" rows=""></textarea>
+                </div>
+             </div>
+        </div>
+    </div>
+    <video autoplay loop src="../video/mainBackground.mp4" ></video>
+    <script src="../js/cssSelector.js"></script>
+</body>
+</html>
